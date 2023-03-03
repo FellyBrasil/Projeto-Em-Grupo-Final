@@ -1,0 +1,57 @@
+.headerDasPaginas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  position: fixed;
+  height: 6.5em;
+  justify-content: space-between;
+  padding: 0 2em;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.headerLogo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  cursor: pointer;
+}
+
+.headerLogo {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  height: 50px;
+  width: auto;
+}
+
+@media (prefers-color-scheme: light) {
+  .headerButton {
+    background-color: #f9f9f9;
+  }
+}
+
+.headerButton:focus,
+.headerButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.headerButton:hover {
+  border-color: #646cff;
+}
+
+.headerButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 3px;
+  color: #fff;
+}

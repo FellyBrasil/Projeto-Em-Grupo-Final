@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+btnAdmin {
+  margin: 2em;
+}
