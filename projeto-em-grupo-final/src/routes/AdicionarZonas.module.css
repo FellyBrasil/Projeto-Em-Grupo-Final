@@ -1,0 +1,22 @@
+.title {
+  color: #fff;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.form {
+  margin: 5em auto 6.5em;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.btn {
+  align-self: center;
+  width: 5em;
+}
+
+label {
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+.Carousel {
+  width: 95vw;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.Accordion1 {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.accordionBody {
+  color: #000;
+  font-size: 1.3em;
+}
+
+.card {
+  margin: 2rem auto;
+}
+
+.cardTitle {
+  color: #000;
+}
+
+.cardText {
+  color: #000;
+}

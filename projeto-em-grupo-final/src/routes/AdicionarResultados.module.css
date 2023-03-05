@@ -1,0 +1,31 @@
+.title {
+  color: #fff;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto 4em;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.btn {
+  align-self: center;
+  width: 5em;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+select option {
+  color: #000;
+}

@@ -1,0 +1,12 @@
+.headerLogo {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  height: 50px;
+  width: auto;
+}
+
+.headerLogo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  cursor: pointer;
+}

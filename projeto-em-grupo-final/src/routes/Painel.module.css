@@ -1,0 +1,51 @@
+.title,
+p {
+  color: #fff;
+}
+
+.title {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.cardText {
+  color: #000;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.btn {
+  margin: 1em;
+}
+
+.btnLogout {
+  margin-top: 3em;
+}
