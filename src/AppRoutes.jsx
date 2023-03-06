@@ -63,108 +63,108 @@ function AppRoutes() {
             exact
             path="/painel"
             element={
-              <Private>
+              
                 <Painel />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/candidatos"
             element={
-              <Private>
+              
                 <PainelCandidatos />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/zonas"
             element={
-              <Private>
+              
                 <PainelZonas />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/polos"
             element={
-              <Private>
+              
                 <PainelPolos />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/resultados"
             element={
-              <Private>
+              
                 <PainelResultados />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/candidatos/editar"
             element={
-              <Private>
+              
                 <EditarCandidatos />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/zonas/adicionar"
             element={
-              <Private>
+              
                 <AdicionarZonas />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/zonas/editar"
             element={
-              <Private>
+              
                 <EditarZonas />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/polos/adicionar"
             element={
-              <Private>
+              
                 <AdicionarPolos />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/polos/editar"
             element={
-              <Private>
+              
                 <EditarPolos />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/resultados/adicionar"
             element={
-              <Private>
+              
                 <AdicionarResultados />
-              </Private>
+              
             }
           />
           <Route
             exact
             path="/painel/resultados/editar"
             element={
-              <Private>
+              
                 <EditarResultados />
-              </Private>
+              
             }
           />
         </Routes>

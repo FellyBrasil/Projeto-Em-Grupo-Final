@@ -13,7 +13,7 @@ function PainelPolos() {
 
   const getPolos = async () => {
     try {
-      const res = await progCariocas.get(`/polos/`);
+      const res = await progCariocas.get(`painel/polos/`);
       const data = res.data.data;
       setPolos(data);
     } catch (error) {
@@ -24,6 +24,11 @@ function PainelPolos() {
   useEffect(() => {
     getPolos();
   }, []);
+
+  const handleDelete = async (id) => {
+    await progCariocas.delete(`/polos/${id}`);
+    setPolos(polos.filter((polo) => polo.pol_id !== id));
+  };
 
   return (
     <>
@@ -62,11 +67,7 @@ function PainelPolos() {
                   </Card.Text>
                   <Button href="/painel/polos/editar/">Editar</Button>
                   <Button
-                    variant="danger"
-                    onClick={async () => {
-                      await progCariocas.delete(`/polos/${polo.polo_id}`);
-                    }}
-                  >
+                     variant="danger" onClick={() => handleDelete(polo.pol_id)}>
                     Excluir
                   </Button>
                 </Card.Body>

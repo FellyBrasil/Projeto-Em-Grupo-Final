@@ -13,7 +13,7 @@ function PainelZonas() {
 
   const getZonas = async () => {
     try {
-      const res = await progCariocas.get(`/zonas/`);
+      const res = await progCariocas.get(`/painel/zonas`);
       const data = res.data.data;
       setZonas(data);
     } catch (error) {
